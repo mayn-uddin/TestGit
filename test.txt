@@ -1,2 +1,7 @@
 This is test file
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 88b4ac7a788f848b3dce62553ddf557df8f146a8
