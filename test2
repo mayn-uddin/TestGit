@@ -1,3 +1,21 @@
-This is test2 file to commit
-eteer
-This need to be commit with git.
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// create driver object to start the browser
+		// create object for class 
+		// class name = x
+		// x driver=new x();
+		//Class name =ChromeDriver ;
+		// Then invoke .exe file to run the beowser
+		// download,extract and locate the .exe file in pc
+		// Add properties and set the .exe file location to the propeties
+		//properties example: webdriver.chrome.driver + .exe file path
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\maynm\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver ();
+		driver.get("https://google.com");
+		System.out.println(driver.getTitle());
+		
